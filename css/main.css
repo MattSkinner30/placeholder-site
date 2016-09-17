@@ -1,0 +1,45 @@
+/**
+#13181F Dark Grey
+#1A222B Medium Grey
+#D9E8F5 Light Grey
+#FFFFFF White
+#E53F00 Orange
+**/
+
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: 'Josefin Slab', serif;
+  background-color: #13181F;
+}
+
+body {
+  
+}
+
+h1 {
+  color: #E53F00;
+  font-weight: 700;
+  font-size: 3.157em;
+  margin-top: 12.5%;
+}
+
+h2 {
+  color: #FFF;
+  font-weight: 400;
+  font-size: 1.777em;
+}
+
+.center {
+  text-align: center;
+}
