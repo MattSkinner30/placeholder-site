@@ -29,8 +29,8 @@ body {
 
 h1 {
   color: #E53F00;
-  font-weight: 700;
-  font-size: 3.157em;
+  font-weight: 300;
+  font-size: 4.208em;
   margin-top: 12.5%;
 }
 
@@ -42,4 +42,15 @@ h2 {
 
 .center {
   text-align: center;
+}
+
+a {
+  color: #1a222B;
+  padding: 1em 0 1em 0;
+}
+
+ul {
+  text-decoration: none;
+  font-size: 1.333em;
+
 }
