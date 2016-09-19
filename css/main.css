@@ -20,7 +20,8 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font-family: 'Josefin Slab', serif;
-  background-color: #13181F;
+  /**background-color: #13181F;**/
+  background-color: #0c0c0c;
 }
 
 body {
@@ -29,17 +30,17 @@ body {
 
 h1 {
   color: #E53F00;
-  font-weight: 700;
   font-size: 5.609em;
   margin: 0.125em;
-  font-family: 'raleway', sans-serif;
+  font-family: 'Rubik Mono One', sans-serif;
+  line-height: 1;
 }
 
 h2 {
   color: #FFF;
   font-weight: 300;
-  font-size: 1.777em;
-  margin: 12.5% 0 0 0;
+  font-size: 1.333em;
+  margin: 2em 0 0 0;
   
 }
 
@@ -47,38 +48,68 @@ h2 {
   text-align: center;
 }
 
-.body-div {
-  background: ;
-  margin-left: 0;
-}
-
-.logo {
-  width: 10%;
-  margin-left: 45%;
+p {
+  color: #D9E8F5;
+  width: 50%;
+  max-width: 700px;
+  margin-left: 25%;
+  line-height: 1.6;
+  margin-top: 5em;
+  text-align: justify;
 }
 
 a {
-  color: #fff;
-  padding: 1em 0 1em 0;
+  color: #D9E8F5;
   text-decoration: none;
   font-weight: 300;
-}
-
-.link-padding {
-  padding-bottom: 1em;
+  border: 1px solid #D9E8F5;
+  border-radius: 5px;
+  padding: 0.5em 2em;
+  margin: 0 1em 0 1em;
 }
 
 .link-hover:hover {
-  color: #D9E8F5;
+  color: #E53F00;
+  border: 1px solid #E53F00;
+  padding: 0.55em 2.05em;
+
 }
 
 li {
   text-decoration: none;
+  display: inline;
 }
 
 ul {
   font-size: 1.333em;
   list-style-type: none;
   padding: 0;
-  margin-top: 12.5%;
+  margin-top: 5em;
+}
+
+
+@media only screen and (max-width: 668px) {
+  li {
+    display: block;
+    margin: 1.5em 0 1.5em 0; 
+  }
+
+  h1 {
+    font-size: 4.209em;
+  }
+  p {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 3.157em;
+  }
+}
+
+@media only screen and (max-width: 318px) {
+  h1 {
+    font-size: 2.369em;
+  }
 }
