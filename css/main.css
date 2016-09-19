@@ -73,7 +73,7 @@ a {
 }
 
 img {
-  max-width: 33.333%;
+  width: 33.333%;
   margin-left: 33.333%;
   border: 2px solid black;
   margin-top: 4em;
@@ -112,16 +112,28 @@ ul {
   p {
     text-align: left;
   }
+  img {
+  width: 100%;
+  margin-left: 0;
+  }
 }
 
 @media only screen and (max-width: 400px) {
   h1 {
     font-size: 3.157em;
   }
+  img {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
 @media only screen and (max-width: 318px) {
   h1 {
     font-size: 2.369em;
+  }
+  img {
+  width: 100%;
+  margin-left: 0;
   }
 }
