@@ -29,27 +29,39 @@ body {
 
 h1 {
   color: #E53F00;
-  font-weight: 300;
-  font-size: 4.208em;
-  margin-top: 12.5%;
-  margin-bottom: 0.125em;
+  font-weight: 700;
+  font-size: 5.609em;
+  margin: 0.125em;
+  font-family: 'raleway', sans-serif;
 }
 
 h2 {
   color: #FFF;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.777em;
-  margin-top: 0;
+  margin: 12.5% 0 0 0;
+  
 }
 
 .center {
   text-align: center;
 }
 
+.body-div {
+  background: ;
+  margin-left: 0;
+}
+
+.logo {
+  width: 10%;
+  margin-left: 45%;
+}
+
 a {
-  color: #1a222B;
+  color: #fff;
   padding: 1em 0 1em 0;
   text-decoration: none;
+  font-weight: 300;
 }
 
 .link-padding {
@@ -63,9 +75,10 @@ a {
 li {
   text-decoration: none;
 }
+
 ul {
   font-size: 1.333em;
   list-style-type: none;
   padding: 0;
-  margin-top: 25%;
+  margin-top: 12.5%;
 }
