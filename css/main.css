@@ -32,12 +32,14 @@ h1 {
   font-weight: 300;
   font-size: 4.208em;
   margin-top: 12.5%;
+  margin-bottom: 0.125em;
 }
 
 h2 {
   color: #FFF;
   font-weight: 400;
   font-size: 1.777em;
+  margin-top: 0;
 }
 
 .center {
@@ -47,10 +49,23 @@ h2 {
 a {
   color: #1a222B;
   padding: 1em 0 1em 0;
+  text-decoration: none;
 }
 
-ul {
-  text-decoration: none;
-  font-size: 1.333em;
+.link-padding {
+  padding-bottom: 1em;
+}
 
+.link-hover:hover {
+  color: #D9E8F5;
+}
+
+li {
+  text-decoration: none;
+}
+ul {
+  font-size: 1.333em;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 25%;
 }
